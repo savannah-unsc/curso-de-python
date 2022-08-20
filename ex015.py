@@ -1,0 +1,5 @@
+print("Aluguel de Carros")
+km = int(input("Quantos Kilometros você percorreu com carro: "))
+dias = int(input("Quantos dias você ficou com carro: "))
+pf = (dias * 60) + (km * 0.15)
+print("O preço para {} dias e {}km é de R$ {:.2f}".format(dias, km, pf))
